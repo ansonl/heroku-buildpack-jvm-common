@@ -12,9 +12,3 @@ BIN_DIR=$(cd $(dirname $0); pwd) # absolute path
 
 # Install JDK
 install_java_with_overlay ${BUILD_DIR}
-
-pwd
-ls /
-ls /app
-ls /app/tmp
-javac -cp . -d . *.java
